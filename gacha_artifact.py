@@ -50,7 +50,7 @@ class GachaArtifact:
         #randomize and do gacha again
         gacha = np.random.choice(guyun, roll, p=prob)
         print(f'Domain of Guyun\n------------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
 
     def midsummerPull(self):
@@ -77,7 +77,7 @@ class GachaArtifact:
         
         gacha = np.random.choice(midsummer, roll, p=prob)
         print(f'Midsummer Courtyard\n-----------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
 
     def vindagnyrPull(self):
@@ -103,7 +103,7 @@ class GachaArtifact:
         
         gacha = np.random.choice(vindagnyr, roll, p=prob)
         print(f'Peak of Vindagnyr\n-----------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
 
     def zhouPull(self):
@@ -130,7 +130,7 @@ class GachaArtifact:
   
         gacha = np.random.choice(zhou, roll, p=prob)
         print(f'Hidden Palace of Zhou Formula\n-----------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
 
     def valleyPull(self):
@@ -157,7 +157,7 @@ class GachaArtifact:
 
         gacha = np.random.choice(valley, roll, p=prob)
         print(f'Valley of Remembrance\n-----------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
 
     def ridgePull(self):
@@ -184,7 +184,7 @@ class GachaArtifact:
 
         gacha = np.random.choice(ridge, roll, p=prob)
         print(f'Ridge Watch\n-----------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
 
     def clearPull(self):
@@ -211,7 +211,7 @@ class GachaArtifact:
 
         gacha = np.random.choice(clear, roll, p=prob)
         print(f'Clear Pool and Mountain Cavern\n-----------------------------------------------------')
-        print(gacha)
+        print("Mora 50000, Companionship EXP 250, ", gacha)
         self.gachaAgainArti()
     
     #roll again 
