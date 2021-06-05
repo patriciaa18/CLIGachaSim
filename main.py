@@ -3,7 +3,7 @@ from gacha_character import GachaCharacter
 from gacha_artifact import GachaArtifact
 
 def main():
-    #buat menu untuk memilih ingin gacha character atau artifact
+    #choose menu
     print("Genshin Impact Gacha Simulation")
     print("----------------------------------------------------")
     print(f"Menu: \n 1. Character Gacha\n 2. Artifact Gacha")
